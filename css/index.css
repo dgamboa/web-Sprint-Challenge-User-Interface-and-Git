@@ -214,6 +214,7 @@ nav a {
 
 #box8 {
     background-color: hotpink;
+    order: 2; /* flex item implementation as an example of the suggestion in README */
 }
 
 #box9 {
