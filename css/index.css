@@ -251,3 +251,8 @@ nav a {
     text-decoration: none;
     width: 35%;
 }
+
+.bottom-content-about {
+    margin-bottom: 40px;   
+    padding: 0 20px;
+}
