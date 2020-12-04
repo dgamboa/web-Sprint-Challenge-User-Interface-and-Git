@@ -222,3 +222,32 @@ nav a {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.middle-content-about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.about-box {
+    border-bottom: 1px dashed black;
+    margin: 10px 5px 50px 5px;
+    max-width: 370px;
+}
+
+.about-box h2 {
+    margin-top: 10px;
+}
+
+.about-box a {
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    display: block;
+    margin: 20px 0;
+    min-width: 125px;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 35%;
+}
