@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,6 +22,8 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -47,6 +48,8 @@ table {
 	border-spacing: 0;
 }
 
+
+/* General Site Styles */
 * {
     box-sizing: border-box;
 }
@@ -66,11 +69,15 @@ p {
     line-height: 1.4;
 }
 
+
+/* Container Styles */
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+
+/* Top Content Styles */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +92,8 @@ p {
     padding-bottom: 20px;  
 }
 
+
+/* Middle Content Styles */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +121,8 @@ p {
     justify-content: center;
 }
 
+
+/* Bottom Content Styles */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +137,8 @@ p {
     padding-right: 0;
 }
 
+
+/* Footer Styles */
 footer {
     width: 100%;
     background: black;
@@ -212,7 +225,7 @@ nav a {
 }
 
 
-/* About Container Styles */
+/* About-Specific Container Styles */
 .about-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
